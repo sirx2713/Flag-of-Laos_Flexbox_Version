@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+    background-color: #FFC96F;
+}
+#container > #red-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 80%;
+    background-color: #CE1126;
+}
+#container > #red-div > #blue-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: #002868;
+}
+#container > #red-div > #blue-div > #white-div{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: white;
+}
